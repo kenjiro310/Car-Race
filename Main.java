@@ -18,7 +18,7 @@ public class Main extends PApplet {
     public void setup(){
         size(800,500);  //Width and height of the area the car drives in
         smooth();  //Improves the quality of the shapes we will draw
-        car = new Car(this, 0, 100, 3);        
+        car = new Car(this, 0, 1, 1); // Initial position and speed of cars
     }
 
     public static void main(String[] args) {
